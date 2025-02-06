@@ -1,0 +1,25 @@
+{
+    "members": [
+        {
+            "id": "1234",
+            "cin": "1234",
+            "name": "elaa",
+            "type": "etudiant",
+            "createdDate": "15/12/2025"
+        },
+        {
+            "id": "12345",
+            "cin": "12345",
+            "name": "amina",
+            "type": "etudiant",
+            "createdDate": "10/12/2025"
+        },
+        {
+            "id": "12345",
+            "cin": "12345",
+            "name": "firas",
+            "type": "etudiant",
+            "createdDate": "20/12/2025"
+        }
+    ]
+}
