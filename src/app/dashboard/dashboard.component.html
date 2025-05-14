@@ -1,0 +1,52 @@
+<div class="dashboard-cards">
+    <mat-card class="dashboard-card" appearance="outlined">
+      <mat-card-title>Members</mat-card-title>
+      <mat-card-content>{{ nb_Members }}</mat-card-content>
+    </mat-card>
+  
+    <mat-card class="dashboard-card" appearance="outlined">
+      <mat-card-title>Events</mat-card-title>
+      <mat-card-content>{{ nb_Events }}</mat-card-content>
+    </mat-card>
+  
+    <mat-card class="dashboard-card" appearance="outlined">
+      <mat-card-title>Pubs</mat-card-title>
+      <mat-card-content>{{ nb_pubs }}</mat-card-content>
+    </mat-card>
+  
+    <mat-card class="dashboard-card" appearance="outlined">
+      <mat-card-title>Tools</mat-card-title>
+      <mat-card-content>{{ nb_tools }}</mat-card-content>
+    </mat-card>
+  
+  </div>
+    
+  <div class="charts-container">
+    <div class="chart-wrapper">
+      <canvas baseChart
+              [type]="'line'"
+              [datasets]="chartData"
+              [labels]="chartLabels"
+              [options]="chartOptions">
+      </canvas>
+    </div>
+  
+    <div class="chart-wrapper">
+      <canvas baseChart
+              [type]="'pie'"
+              [datasets]="chartDatapie"
+              [labels]="chartLabelspie"
+              [options]="chartOptionspie">
+      </canvas>
+    </div>
+    <div class="chart-wrapper">
+      <canvas baseChart
+              [type]="'doughnut'"
+              [datasets]="chartDatadoughnut"
+              [labels]="chartLabelsdoughnut"
+              [options]="chartOptionsdoughnut">
+      </canvas>
+    </div>
+  </div>
+  
+  

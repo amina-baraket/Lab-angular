@@ -15,4 +15,16 @@ export class MemberService {
       //envoie une requette en mode GET
      return this.http.get<Member[]>('http://localhost:3000/members')
     }
+    GetMemberById(id :string):Observable<Member>{
+      return this.http.get<Member>(`http://localhost:3000/members/${id}`)
+    }
+    addMember(member:Member):Observable<void>{
+      return this.http.post<void>('http://localhost:3000/members',member)
+    }
+    delete(id: string): Observable<void> {
+      return this.http.delete<void>(`http://localhost:3000/members/${id}`)
+    }
+    update(id: string, member: Member): Observable<void> {
+      return this.http.put<void>(`http://localhost:3000/members/${id}`, member);
+    }
 }

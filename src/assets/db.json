@@ -1,25 +1,100 @@
 {
-    "members": [
+  "members": [
+    {
+      "id": "12345",
+      "cin": "12345",
+      "name": "youssef",
+      "type": "etudiant",
+      "createdDate": "20/12/2025",
+      "tabEvt":[
         {
-            "id": "1234",
-            "cin": "1234",
-            "name": "elaa",
-            "type": "etudiant",
-            "createdDate": "15/12/2025"
-        },
-        {
-            "id": "12345",
-            "cin": "12345",
-            "name": "amina",
-            "type": "etudiant",
-            "createdDate": "10/12/2025"
-        },
-        {
-            "id": "12345",
-            "cin": "12345",
-            "name": "firas",
-            "type": "etudiant",
-            "createdDate": "20/12/2025"
+          "id": "962",
+          "titre": "aaaaa",
+          "dateDebut": "25/04/2025",
+          "dateFin": "26/04/2025",
+          "lieu": "mahdia"
         }
-    ]
+      ]
+    },
+    {
+      "id": "0635",
+      "cin": "123256",
+      "name": "firas ",
+      "type": "etudiant",
+      "createdDate": "20/02/2025",
+      "tabEvt":[
+        {
+          "id": "393",
+          "titre": "ccccc",
+          "dateDebut": "25/12/2025",
+          "dateFin": "26/02/2025",
+          "lieu": "tunis"
+        },
+        {
+          "id": "962",
+          "titre": "aaaaa",
+          "dateDebut": "25/04/2025",
+          "dateFin": "26/04/2025",
+          "lieu": "mahdia"
+        }
+      ]
+    },
+    {
+      "id": "3692",
+      "cin": "123256",
+      "name": "amina ",
+      "type": "teacher",
+      "createdDate": "17/04/2025",
+      "tabEvt":[
+        {
+          "id": "655",
+          "titre": "bbbbb",
+          "dateDebut": "2025-12-26",
+          "dateFin": "2025-01-06",
+          "lieu": "sfax"
+        }
+      ]
+    }
+  ],
+  "Evt": [
+    {
+      "id": "655",
+      "titre": "bbbbb",
+      "dateDebut": "2025-12-26",
+      "dateFin": "2025-01-06",
+      "lieu": "sfax"
+    },
+    {
+      "id": "393",
+      "titre": "ccccc",
+      "dateDebut": "25/12/2025",
+      "dateFin": "26/02/2025",
+      "lieu": "tunis"
+    },
+    {
+      "id": "962",
+      "titre": "aaaaa",
+      "dateDebut": "25/04/2025",
+      "dateFin": "26/04/2025",
+      "lieu": "mahdia"
+    }
+  ],
+  "Pub": [
+    {
+      "titre": "bbbbb",
+      "type": "journal-1",
+      "lien": "aaaaa",
+      "date": "2025-12-26",
+      "sourcepdf": "aaaaaaaaa",
+      "id": "9631"
+    },
+    {
+      "id": "d59e",
+      "titre": "test",
+      "type": "pizza-1",
+      "lien": "ezfze",
+      "date": "2024-01-01T00:00:00.000Z",
+      "sourcepdf": "ae\"fa"
+    }
+  ]
 }

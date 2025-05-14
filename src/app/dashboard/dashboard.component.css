@@ -1,0 +1,75 @@
+/* Dashboard Cards Layout */
+.dashboard-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  margin-bottom: 40px;
+}
+
+.dashboard-card {
+  flex: 0 0 200px;
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+  padding: 16px;
+  cursor: pointer;
+}
+
+.dashboard-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.15);
+}
+
+mat-card-title {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+mat-card-content {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #3f51b5;
+}
+
+/* Charts Container */
+.charts-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 24px;
+  padding: 0 20px 40px;
+}
+
+/* Individual Chart Box */
+.chart-wrapper {
+  flex: 1 1 30%;
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.08);
+  padding: 20px;
+  min-width: 280px;
+  max-width: 400px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chart-wrapper:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
+}
+
+/* Make chart canvas responsive */
+.chart-wrapper canvas {
+  width: 100% !important;
+  height: auto !important;
+  max-height: 300px;
+}
+
